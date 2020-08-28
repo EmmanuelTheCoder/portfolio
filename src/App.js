@@ -129,7 +129,6 @@ const openHamburger = () =>{
                     name="contact me"
                     method="post"
                     netlify
-                    data-netlify-honeypot="bot-field"
                     >
                     <label htmlFor="name">Your name</label>
                     <input type="text" name="name"/>
@@ -138,7 +137,7 @@ const openHamburger = () =>{
                     <label htmlFor="message">Message</label>
                     <textarea name="message" id="" cols="30" rows="10">
                     </textarea>
-                    <button>Send</button>
+                    <button type="submit">Send</button>
                     </form>
 
                     <form name="contact" method="post" netlify>
