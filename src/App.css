@@ -8,6 +8,9 @@ body{
   /* background: rgba(255, 255, 250, .6); */
   background: linear-gradient(to bottom, rgba(222,222,222, .7), rgba(121,212,212, .7));
 }
+a{
+  text-decoration: none;
+}
 
 .modal-container{
   width: 100%;
@@ -68,7 +71,7 @@ button{
   border: none;
 }
 .intro{
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   padding-bottom: .9rem;
 }
 /* .dot{
@@ -222,7 +225,7 @@ button{
 .experience{
   background: linear-gradient(to bottom, rgba(222,222,222, .2), rgba(121,212,212, .3));
   text-align: center;
-  margin-top: 2.2rem;
+  margin-top: 2.5rem;
 }
 .experience h1{
   font-size: 2.2rem;
@@ -276,7 +279,25 @@ button{
   padding-bottom: 1.1rem;
   font-size: 1.2rem;
   font-family: sans-serif;
-} 
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: -.7rem 1rem 1.5rem 4rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  display: none;
+}
+.navbar >a{
+  margin-left: 2rem;
+  
+}
+.main-navbar{
+  display: none;
+}
 .projects{
   text-align: center;
   margin-top: 2rem;
@@ -331,9 +352,7 @@ button{
 
   
 }
-.covering .firstp h2, .covering .secondp h2{
-  
-}
+
 @media (min-width: 890px){
   .covering .firstp, .covering .secondp, .covering .thirdp, 
   .covering .fourthp, .covering .fifthp, .covering .sixthp{
@@ -362,6 +381,7 @@ button{
     
     
   }
+  
   .covering .sixthp{
     margin-right: 1rem;
   }
@@ -390,6 +410,18 @@ button{
     background: linear-gradient(to bottom, rgba(69, 187, 53, 0.3), rgba(203, 224, 83, 0.5));
   }
 }
+@media (min-width: 900px){
+  
+}
+@media (min-width: 930px){
+  .hamburger{
+    display: none;
+  }
+  .navbar{
+    display: flex;
+  }
+  
+}
 @media (min-width: 970px){
   .self-info{
     display: grid;
@@ -407,72 +439,24 @@ button{
 footer{
   text-align: center;
   font-size: 1.2rem;
-  background: black;
-  color: white;
   transform: skewY(-2deg);
-  padding: 2rem;
+  padding: 1rem;
   margin: none;
-
+  font-family: cursive;
+  
 }
 footer >p{
   transform: skewY(2deg);
-}
-footer::before{
-  content: "";
-  width: 80px;
-  height: 60px;
-  background: blue;
-  position: absolute;
-  top: -39px;
-  right: 0;
-  z-index: -2;
-}
-footer::after{
-  content: "";
-  width: 80px;
-  height: 80px;
-  background: red;
-  position: absolute;
-  top: -80px;
-  right: 0;
-  border-radius: 50%;
-  z-index: -1;
-
+  margin-top: 2rem;
 }
 
-.branded::before{
-  content: "";
-  width: 20px;
-  height: 60px;
-  background: blue;
-  position: absolute;
-  top: 400px;
-  right: 4px;
-  z-index: -2;
+.test{
+  margin-top: .8rem;
 }
-.branded::after{
-  content: "";
-  width: 20px;
-  height: 30px;
-  background: red;
-  position: absolute;
-  top: 360px;
-  right: 4px;
-  border-radius: 50%;
-  z-index: -1;
 
-}
-.navbar{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-  margin: -1.2rem 1rem 1.5rem 0;
-  display: none;
-}
-.navbar >p{
-  margin-left: 2rem;
-  
+
+#intro{
+  margin-top: -.9rem;
 }
 .hamburger{
   text-align: right;
@@ -480,18 +464,29 @@ footer::after{
   font-size: 2.2rem;
   font-weight: 700;
   cursor: pointer;
+  
 }
 .hamburger >p{
   margin-top: -2.4rem;
   font-weight: 900;
 }
+/* .unmove{
+  position: fixed;
+  top: 1rem;
+  background:
+ linear-gradient(to bottom, rgba(156, 214, 236, .2), rgba(121,212,212, .2));
+ width: 100%;
+ margin-left: -2rem;
+ z-index: -7;
+ 
+} */
 .hamburger-content{
     text-align: left;
     position: fixed;
     right: 0;
     top: 0;
     margin-top: -1.2rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     background: linear-gradient(to bottom, rgba(156, 214, 236, 0.7), rgba(121,212,212, .9));
     width: 50vw;
     padding: 3rem;
@@ -510,10 +505,11 @@ footer::after{
   width: 2rem;
   padding-left: .6rem;
   border-radius: 50%;
-
+  
   
 }
-.hamburger-content >p{
+.hamburger-content >a{
   margin-bottom: 1.2rem;
   color: rgb(3, 3, 153);
+  display: flex;
 }

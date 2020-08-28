@@ -22,39 +22,38 @@ const openHamburger = () =>{
     document.querySelector('.hamburger-content').style.display = "block";
 }
 
+
     
     return(
         <div className="app">
             <div className="intro">
-                    <Navbar />
-                    <div className="hamburger" onClick={openHamburger}>
-                        <p>__</p>
-                        <p>__</p>
-                        <p>__</p>
+                    <Navbar className="main-navbar"/>
+                    <div className="hamburger">
+                        <p onClick={openHamburger}>__</p>
+                        <p onClick={openHamburger}>__</p>
+                        <p onClick={openHamburger}>__</p>
+                        
                     </div>
                     <div className="hamburger-content">
                         <p onClick={closeHamburger}>x</p>
-                        <p>About</p>
-                        <p>Contact</p>
-                        <p>projects</p>
-                        <p>Resume</p>
+                        <a href="#intro" onClick={closeHamburger}>About</a>
+                        <a href="#contact" onClick={closeHamburger}>Contact</a>
+                        <a href="#projects" onClick={closeHamburger}>Projects</a>
+                        <a href="" onClick={closeHamburger}>Resume</a>
                         <p></p>
                     </div>
                 
-                    <h1>HI, I'm Emmanuel</h1>
-                    {/* <h4 className="branded"></h4> */}
+                    <div className="unmove">
+                    <h1 id="intro">HI, I'm Emmanuel</h1>
+                    
                     <ReactRotatingText className="frontend" items={["Firstend developer", "Meticulous, passionate and energetic", "Design driven", "Enthusiastic team player", "Deep creative thinker"]}
                      typingInterval="200" emptyPause= "1500"/>
-                    <p className="test"><i className="fas fa-code-merge" /> github</p>
+                    </div>
+                    <p className="test"> github</p>
                     <p>twitter</p>
-                    <p>email</p>
-                    {/* <div className="dot">
-                        <p className="dot1">.</p>
-                        <p className="dot2">.</p>
-                        <p className="dot3">.</p>
-                        <p className="dot4">.</p>
-                        <p className="dot5">.</p>
-                    </div> */}
+                    <p><i className="fas fa-envelope" />email</p>
+                   
+                    
                     
             </div>
             <div className="modal-container">
@@ -73,7 +72,7 @@ const openHamburger = () =>{
                 <img src={emmanuel} alt="my pic"/>
             </div>
             <div className="experience">
-                <h1>Experience</h1>
+                <h1 id="experience">Experience</h1>
 
                 <div className="firstex">
                     <h2>Frontend developer</h2>
@@ -96,7 +95,7 @@ const openHamburger = () =>{
 
             </div>
             <div className="projects">
-                <h1>Recent projects</h1>
+                <h1 id="projects">Recent projects</h1>
                 <div className="covering">
                     <div className="firstp">
                         <h2>Covid-19 tracker</h2>
@@ -125,7 +124,7 @@ const openHamburger = () =>{
 
                 </div>
                 <div className="form">
-                    <h1>Contact me</h1>
+                    <h1 id="contact">Contact me</h1>
                     <form
                     name="contact me"
                     method="post"
@@ -141,11 +140,27 @@ const openHamburger = () =>{
                     </textarea>
                     <button>Send</button>
                     </form>
+
+                    <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>,
                 </div>
             </div>
                 <footer>
-                    <p>Emmanuel Aiyenigba</p>
-                    <p>mail me at: loyaltysamuel001@gmail.com</p>
+                    <p>Emmanuel Aiyenigba, 2020</p>
+                    
                 </footer>
         </div>
     );

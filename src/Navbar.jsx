@@ -4,10 +4,10 @@ const Navbar = () =>{
     return(
         <div className="nav-center">
         <div className="navbar">
-            <p>Contact</p> 
-            <p>Projects</p>
-            <p>Resume</p>
-            <p>About me</p>
+            <a href="#contact">Contact</a> 
+            <a href="#projects">Projects</a>
+            <a href="">Resume</a>
+            <a href="#intro">About</a>
         </div>
         </div>
     );
