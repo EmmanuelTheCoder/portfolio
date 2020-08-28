@@ -125,8 +125,8 @@ const openHamburger = () =>{
                 </div>
                 <div className="form">
                     <h1 id="contact">Contact me</h1>
-                    <form
-                    name="contact me"
+                    {/* <form
+                    name="contact"
                     method="post"
                     netlify
                     >
@@ -138,23 +138,23 @@ const openHamburger = () =>{
                     <textarea name="message" id="" cols="30" rows="10">
                     </textarea>
                     <button type="submit">Send</button>
-                    </form>
+                    </form> */}
 
                     <form name="contact" method="post" netlify>
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>Your Name: <input type="text" name="name"/></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email"/></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>,
+                        <input type="hidden" name="form-name" value="contact" />
+                        <p>
+                            <label>Your Name: <input type="text" name="name"/></label>
+                        </p>
+                        <p>
+                            <label>Your Email: <input type="email" name="email"/></label>
+                        </p>
+                        <p>
+                            <label>Message: <textarea name="message" cols="30" rows="10"></textarea></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>,
                 </div>
             </div>
                 <footer>
