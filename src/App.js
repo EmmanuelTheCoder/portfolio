@@ -39,7 +39,7 @@ const openHamburger = () =>{
                         <a href="#intro" onClick={closeHamburger}>About</a>
                         <a href="#contact" onClick={closeHamburger}>Contact</a>
                         <a href="#projects" onClick={closeHamburger}>Projects</a>
-                        <a href="" onClick={closeHamburger}>Resume</a>
+                        <a href="https://www.dropbox.com/s/b92z0wv7yorgkd5/resume.pdf?dl=0" onClick={closeHamburger}>Resume</a>
                         <p></p>
                     </div>
                 
