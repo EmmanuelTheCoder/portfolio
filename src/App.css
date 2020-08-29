@@ -14,20 +14,20 @@ a{
 
 .modal-container{
   width: 100%;
-  height: 600%;
+  height: 650%;
   background: rgba(0,0,0, .9);
   position: absolute;
   top: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   display: none;
 }
 .modal{
   width: 300px;
-  height: 200px;
+  height: 400px;
   background: white;
   position: relative;
+  margin-top: 10rem;
 }
 .modal .close{
   font-size: 3rem;
@@ -38,6 +38,15 @@ a{
   margin-top: -.8rem;
   cursor: pointer;
 }
+.hire-form{
+  margin-top: 3rem;
+  
+}
+.hire-form label{
+  padding: 2rem;
+}
+
+
 .form{
   margin-top:3rem;
 }
@@ -220,7 +229,7 @@ button{
 .self-info img{
   border-radius: 15px;
   box-shadow: 5px 5px rgba(250, 250, 233, 0.6);
-
+  margin-top: 1rem;
 }
 .experience{
   background: linear-gradient(to bottom, rgba(222,222,222, .2), rgba(121,212,212, .3));
@@ -467,9 +476,18 @@ footer >p{
   
 }
 .hamburger >p{
-  margin-top: -1.4rem;
+  margin-top: -1.8rem;
   font-weight: 900;
 }
+.hire{
+  margin-left: .7rem;
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  border: none;
+  
+  
+}
+
 /* .unmove{
   position: fixed;
   top: 1rem;

@@ -10,10 +10,10 @@ const App = () =>{
         let modal = document.querySelector('.modal-container');
         modal.style.display = "none";
     }
-    // const showDisplay = () =>{
-    //     let modal = document.querySelector('.modal-container');
-    //     modal.style.display = "flex";
-    // }
+    const showDisplay = () =>{
+        let modal = document.querySelector('.modal-container');
+        modal.style.display = "flex";
+    }
 
 const closeHamburger = () =>{
     document.querySelector('.hamburger-content').style.display = "none";
@@ -58,17 +58,32 @@ const openHamburger = () =>{
             </div>
             <div className="modal-container">
                 <div className="modal">
-                    <div className="close" onClick={close}>
-                        +
-                    </div>
+                    <div className="close" onClick={close}>+</div>
+                    <form method="post" name="hire" netlify className="hire-form">
+                        <input type="hidden" name="form-name" value="hire" />
+                        <p>
+                            <label>Your Name: <input type="text" name="name"/></label>
+                        </p>
+                        <p>
+                            <label>Your Email: <input type="email" name="email"/></label>
+                        </p>
+                        <p>
+                            <label>About company: <textarea name="message" placeholder="Just a little detail about the company, please." cols="30" rows="10"></textarea></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                        </form>
                 </div>
             </div>
             <div className="self-info">
                 <p className="info">
                     I am a meticulous frontend developer 
                     with 2+ years experience managing and building frontend products.
-                    An enthusiatic team player and deep creative thinker. 
+                    An enthusiatic team player and deep creative thinker.
+                    <button className="hire" onClick={showDisplay}>Hire me</button>
                 </p>
+                
                 <img src={emmanuel} alt="my pic"/>
             </div>
             <div className="experience">
