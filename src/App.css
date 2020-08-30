@@ -23,8 +23,8 @@ a{
   display: none;
 }
 .modal{
-  width: 300px;
-  height: 500px;
+  width: 400px;
+  height: 650px;
   background: white;
   position: relative;
   margin-top: 10rem;
@@ -39,17 +39,23 @@ a{
   cursor: pointer;
 }
 .hire-form{
-  margin-top: 3rem;
+  margin-top: .5rem;
   
 }
-.hire-form label{
-  padding: 2rem;
-}
-.hire-form button{
-  margin-left: 1rem;
-}
 
 
+.my-image{
+  text-align: center;
+}
+.my-image > img{
+  width: 10rem;
+  margin-top: .9rem;
+  border-radius: 50px;
+}
+
+.form-div{
+  text-align: center;
+}
 .form{
   margin-top:3rem;
 }

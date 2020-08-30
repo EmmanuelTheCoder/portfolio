@@ -59,6 +59,10 @@ const openHamburger = () =>{
             <div className="modal-container">
                 <div className="modal">
                     <div className="close" onClick={close}>+</div>
+                    <div className="my-image">
+                        <img src={emmanuel} alt="my image" className="myself"/>
+                    </div>
+                    <div className="form-div">
                     <form method="post" name="hire" netlify className="hire-form">
                         <input type="hidden" name="form-name" value="hire" />
                         <p>
@@ -74,6 +78,8 @@ const openHamburger = () =>{
                             <button type="submit">Send</button>
                         </p>
                         </form>
+                    </div>
+                    
                 </div>
             </div>
             <div className="self-info">
