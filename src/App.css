@@ -45,6 +45,9 @@ a{
 .hire-form label{
   padding: 2rem;
 }
+.hire-form button{
+  margin-left: 1rem;
+}
 
 
 .form{
