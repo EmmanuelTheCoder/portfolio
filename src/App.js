@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';
 import './App.css';
 import Navbar from './Navbar';
 import emmanuel from './pictures/emmanuel.jpg';
+import github from './pictures/github.png';
+import twitter from './pictures/twitter.png';
 
 let ReactRotatingText =  require('react-rotating-text');
 const App = () =>{
@@ -51,7 +53,9 @@ const openHamburger = () =>{
                      typingInterval="200" emptyPause= "1500"/>
                     </div>
                     <p className="test"> github</p>
+                    <a href="https://github.com/EmmanuelTheCoder"><img src={github} alt="github" /> </a>
                     <p>twitter</p>
+                    <a href="https://twitter.com/EmmanuelCoder"><img src={twitter} alt="twitter" /> </a>
                     <p><i className="fas fa-envelope" />email</p>
                    
                     
@@ -61,7 +65,7 @@ const openHamburger = () =>{
                 <div className="modal">
                     <div className="close" onClick={close}>+</div>
                     <div className="my-image">
-                        <img src={emmanuel} alt="my image" className="myself"/>
+                        <img src={emmanuel} alt="myself" className="myself"/>
                     </div>
                     <div className="form-div">
                     <Link to="/thanks">
