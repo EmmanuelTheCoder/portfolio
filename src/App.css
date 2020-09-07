@@ -43,7 +43,9 @@ a{
   
 }
 
-
+.project-github{
+  width: 40px;
+}
 .my-image{
   text-align: center;
 }
@@ -295,7 +297,7 @@ button{
 /* https://github.com/EmmanuelTheCoder/Weather-app-withReact.git */
 .my-stack p{
   padding-bottom: 1.1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: sans-serif;
 }
 .navbar{
@@ -331,6 +333,35 @@ button{
   margin-top: 2rem;
   
 }
+.icon-container{
+  margin-top: .9rem;
+}
+.icon-container, .icon-container a{
+  display: block;
+}
+.icon-container .icon{
+  width: 25px;
+
+}
+.icon-container  a {
+  color: black;
+}
+.description{
+  padding: 10px;
+  margin-top: 16px;
+  font-style: italic;
+  font-size: .9rem;
+}
+.project-link{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  margin: auto;
+}
+.project-github, .project-browser{
+  width: 40px;
+}
+
 .covering .firstp, .covering .secondp, .covering .thirdp, 
 .covering .fourthp, .covering .fifthp, .covering .sixthp{
   margin-bottom: 1rem;
@@ -427,6 +458,7 @@ button{
   .covering .sixthp{
     background: linear-gradient(to bottom, rgba(69, 187, 53, 0.3), rgba(203, 224, 83, 0.5));
   }
+  
 }
 @media (min-width: 900px){
   
