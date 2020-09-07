@@ -15,6 +15,7 @@ import css from './pictures/css.png';
 import jquery from './pictures/jquery.png';
 
 
+
 let ReactRotatingText =  require('react-rotating-text');
 const App = () =>{
     
@@ -62,9 +63,9 @@ const openHamburger = () =>{
                      typingInterval="200" emptyPause= "1500"/>
                     </div>
                     <div className="icon-container">
-                        <a href="https://github.com/EmmanuelTheCoder"><img src={github} alt="github" className="icon"/> </a>
-                        <a href="https://twitter.com/EmmanuelCoder"><img src={twitter} alt="twitter" className="icon" /> </a>
-                        <a href="mailto:loyaltysamuel001@gmail.com"><i className="fas fa-envelope icon"/></a>
+                        <a href="https://github.com/EmmanuelTheCoder" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="icon"/> </a>
+                        <a href="https://twitter.com/EmmanuelCoder" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" className="icon" /> </a>
+                        <a href="mailto:loyaltysamuel001@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope icon"/></a>
                     </div>
                     
                    
@@ -146,8 +147,8 @@ const openHamburger = () =>{
                     <div className="firstp">
                         <h2>Quiz App</h2>
                         <div className="project-link">
-                          <a href="https://github.com/EmmanuelTheCoder/BibleQuiz_App"><img src={github} alt="gitub" className="project-github" /></a>
-                          <a href="https://biblequiz.netlify.app"><img src={browser} alt="browser" className="project-browser" /></a>
+                          <a href="https://github.com/EmmanuelTheCoder/BibleQuiz_App" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                          <a href="https://biblequiz.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Test your skills on certain subjects while having fun.</p>
                         <p>HTML, CSS, JS </p>
@@ -155,8 +156,8 @@ const openHamburger = () =>{
                     <div className="secondp">
                         <h2>TodoList App</h2>
                         <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/TodoList_App"><img src={github} alt="gitub" className="project-github" /></a>
-                            <a href="https://todoplan.netlify.app"><img src={browser} alt="browser" className="project-browser" /></a>
+                            <a href="https://github.com/EmmanuelTheCoder/TodoList_App" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                            <a href="https://todoplan.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Plan and organize your daily activities with this TodoList web app. 
                         </p>
@@ -165,7 +166,7 @@ const openHamburger = () =>{
                     <div className="thirdp">
                         <h2>Business Card</h2>
                         <div className="project-link">
-                            <img src={github} alt="gitub" className="project-github" />
+                            <a href="https://github.com/EmmanuelTheCoder/Business-card"><img src={github} alt="gitub" className="project-github" /> </a>
                             <img src={browser} alt="browser" className="project-browser" />
                         </div>
                         <p className="description">Get your business live on the web with this
@@ -175,8 +176,8 @@ const openHamburger = () =>{
                     <div className="fourthp">
                         <h2>Covid-19 tracker</h2>
                         <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/Covid19-live-stat"><img src={github} alt="gitub" className="project-github" /> </a>
-                            <a href="https://covid19me.netlify.app"><img src={browser} alt="browser" className="project-browser" /></a>
+                            <a href="https://github.com/EmmanuelTheCoder/Covid19-live-stat" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /> </a>
+                            <a href="https://covid19me.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Be updated about the Covid-19 pandemic</p>
                         <p>HTML CSS JS</p>
@@ -184,8 +185,8 @@ const openHamburger = () =>{
                     <div className="fifthp">
                         <h2>Weather App</h2>
                         <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/Weather-app-withReact"><img src={github} alt="gitub" className="project-github" /></a>
-                            <a href="https://weatherzone.netlify.app"><img src={browser} alt="browser" className="project-browser" /></a>
+                            <a href="https://github.com/EmmanuelTheCoder/Weather-app-withReact" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                            <a href="https://weatherzone.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Check for weather info in any and every city you wish</p>
                         <p>HTML, CSS, JS,API</p>
@@ -193,8 +194,8 @@ const openHamburger = () =>{
                     <div className="sixthp">
                         <h2>GPA Calculator</h2>
                         <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/GPA-calculator"><img src={github} alt="gitub" className="project-github" /></a>
-                            <a href="https://calculategp.netlify.app"><img src={browser} alt="browser" className="project-browser" /></a>
+                            <a href="https://github.com/EmmanuelTheCoder/GPA-calculator" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                            <a href="https://calculategp.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Helps nigerian university students calculate their GPA</p>
                         <p>React</p>
