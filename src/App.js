@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './App.css';
 import Navbar from './Navbar';
 import emmanuel from './pictures/emmanuel.jpg';
@@ -79,7 +78,7 @@ const openHamburger = () =>{
                         <img src={emmanuel} alt="myself" className="myself"/>
                     </div>
                     <div className="form-div">
-                    <Link to="/thanks">
+                    
                     <form method="post" name="hire" netlify className="hire-form">
                         <input type="hidden" name="form-name" value="hire" />
                         <p>
@@ -95,7 +94,7 @@ const openHamburger = () =>{
                             <button type="submit">Send</button>
                         </p>
                         </form>
-                    </Link>
+                    
                     
                     </div>
                     
@@ -233,7 +232,7 @@ const openHamburger = () =>{
                         <p>
                             <button type="submit">Send</button>
                         </p>
-                    </form>,
+                    </form>
                 </div>
             </div>
                 <footer>
