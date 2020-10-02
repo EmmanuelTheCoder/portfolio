@@ -27,12 +27,12 @@ const App = () =>{
         modal.style.display = "flex";
     }
 
-const closeHamburger = () =>{
-    document.querySelector('.hamburger-content').style.display = "none";
-}
-const openHamburger = () =>{
-    document.querySelector('.hamburger-content').style.display = "block";
-}
+    const closeHamburger = () =>{
+        document.querySelector('.hamburger-content').style.display = "none";
+    }
+    const openHamburger = () =>{
+        document.querySelector('.hamburger-content').style.display = "block";
+    }
 
 
     
@@ -150,7 +150,7 @@ const openHamburger = () =>{
                           <a href="https://biblequiz.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Test your skills on certain subjects while having fun.</p>
-                        <p>HTML, CSS, JS </p>
+                        <p>HTML, CSS, JS, jQuery </p>
                     </div>
                     <div className="secondp">
                         <h2>TodoList App</h2>
