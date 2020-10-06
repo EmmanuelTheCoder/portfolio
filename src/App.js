@@ -236,7 +236,7 @@ const App = () =>{
                 </div>
             </div>
                 <footer>
-                    <p>Emmanuel Aiyenigba, 2020</p>
+                    <p>Emmanuel Aiyenigba, 2020.</p>
                     
                 </footer>
         </div>
