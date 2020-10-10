@@ -467,6 +467,9 @@ button{
   .hamburger{
     display: none;
   }
+  .close-hamburger-content{
+    display: none;
+  }
   .navbar{
     display: flex;
   }

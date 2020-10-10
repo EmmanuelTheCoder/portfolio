@@ -46,6 +46,7 @@ const App = () =>{
                         <p onClick={openHamburger}>__</p>
                         
                     </div>
+                    <div className="close-hamburger-content">
                     <div className="hamburger-content">
                         <p onClick={closeHamburger}>x</p>
                         <a href="#intro" onClick={closeHamburger}>About</a>
@@ -53,6 +54,7 @@ const App = () =>{
                         <a href="#projects" onClick={closeHamburger}>Projects</a>
                         <a href="https://www.dropbox.com/s/b92z0wv7yorgkd5/resume.pdf?dl=0" onClick={closeHamburger}>Resume</a>
                         <p></p>
+                    </div>
                     </div>
                 
                     <div className="unmove">
