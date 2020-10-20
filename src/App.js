@@ -164,7 +164,7 @@ const App = () =>{
                         <h2>Film Flix</h2>
                         <div className="project-link">
                           <a href="https://github.com/EmmanuelTheCoder/movie-info" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
-                          <img src={browser} alt="browser" className="project-browser" />
+                          < a target="_blank" rel="noopener noreferrer" href="https://github.com/EmmanuelTheCoder/movie-info"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Get information about any movie of your choice</p>
                         <p>React, API</p>
@@ -192,7 +192,7 @@ const App = () =>{
                         <h2>Business Card</h2>
                         <div className="project-link">
                             <a href="https://github.com/EmmanuelTheCoder/Business-card"><img src={github} alt="gitub" className="project-github" /> </a>
-                            <img src={browser} alt="browser" className="project-browser" />
+                            < a target="_blank" rel="noopener noreferrer"href="https://github.com/EmmanuelTheCoder/Business-card"><img src={browser} alt="browser" className="project-browser" /> </a>
                         </div>
                         <p className="description">Get your business live on the web with this
                          business card.</p>
