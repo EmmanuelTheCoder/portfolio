@@ -126,25 +126,49 @@ const App = () =>{
             </div>
             <div className="my-stack">
                 <h1>My stack</h1>
-                <p> <img src={javascript} alt="javascript"/></p>
+                <p> 
+                    <img src={javascript} alt="javascript"/>
+                </p>
                 <p>JavaScript</p>
-                <p><img src={react} alt="react" /></p>
+                <p>
+                    <img src={react} alt="react" />
+                </p>
                 <p>React</p>
-                <p><img src={html} alt="html"/></p>
+                <p>
+                    <img src={html} alt="html"/>
+                </p>
                 <p>HTML5</p>
-                <p><img src={css} alt="css"/></p>
+                <p>
+                    <img src={css} alt="css"/>
+                </p>
                 <p>CSS3</p>
-                <p><img src={bootstrap} alt="bootstrap"/></p>
+                <p>
+                    <img src={bootstrap} alt="bootstrap"/>
+                </p>
                 <p>Bootstrap</p>
-                <p><img src={jquery} alt="jquery"/></p>
+                <p>
+                    <img src={jquery} alt="jquery"/>
+                </p>
                 <p> jQuery </p>
-                <p><img src={liquid} alt="liquid"/></p>
+                <p>
+                    <img src={liquid} alt="liquid"/>
+                </p>
                 <p>Liquid</p>
 
             </div>
             <div className="projects">
-                <h1 id="projects">Recent projects</h1>
+                <h1 id="projects">Some projects</h1>
                 <div className="covering">
+                
+                <div className="firstp">
+                        <h2>Film Flix</h2>
+                        <div className="project-link">
+                          <a href="https://github.com/EmmanuelTheCoder/movie-info" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                          <img src={browser} alt="browser" className="project-browser" />
+                        </div>
+                        <p className="description">Get information about any movie of your choice</p>
+                        <p>React, API</p>
+                    </div>
                     <div className="firstp">
                         <h2>Quiz App</h2>
                         <div className="project-link">
@@ -181,7 +205,7 @@ const App = () =>{
                             <a href="https://covid19me.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Be updated about the Covid-19 pandemic</p>
-                        <p>HTML CSS JS</p>
+                        <p>HTML,CSS, JS, API</p>
                     </div>
                     <div className="fifthp">
                         <h2>Weather App</h2>
