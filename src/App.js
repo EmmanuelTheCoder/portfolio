@@ -41,9 +41,9 @@ const App = () =>{
             <div className="intro">
                     <Navbar className="main-navbar"/>
                     <div className="hamburger">
-                        <p onClick={openHamburger}>__</p>
-                        <p onClick={openHamburger}>__</p>
-                        <p onClick={openHamburger}>__</p>
+                        <img src="https://img.icons8.com/metro/26/000000/menu.png"
+                         onClick={openHamburger}
+                        />
                         
                     </div>
                     <div className="close-hamburger-content">

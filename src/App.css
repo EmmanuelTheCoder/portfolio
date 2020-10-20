@@ -522,10 +522,7 @@ footer >p{
   cursor: pointer;
   
 }
-.hamburger >p{
-  margin-top: -1.8rem;
-  font-weight: 900;
-}
+
 .hire{
   margin-left: .7rem;
   color: rgba(255, 255, 255, 0.8);
