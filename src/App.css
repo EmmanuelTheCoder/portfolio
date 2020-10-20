@@ -424,8 +424,8 @@ button{
     box-shadow: rgb(78, 78, 170) 5px 12px 15px;
     height: 18rem;
     width: 15rem;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -436,9 +436,7 @@ button{
     
   }
   
-  .covering .sixthp{
-    margin-right: 1rem;
-  }
+  
   .covering .firstp p, .covering .secondp p, .covering .thirdp p, .covering .fourthp p, .covering .fifthp p, .covering .sixthp p {
     /*margin-left: -9rem;*/
     color: blue;
