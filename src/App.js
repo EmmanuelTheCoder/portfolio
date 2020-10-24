@@ -41,7 +41,7 @@ const App = () =>{
             <div className="intro">
                     <Navbar className="main-navbar"/>
                     <div className="hamburger">
-                        <img src="https://img.icons8.com/metro/26/000000/menu.png"
+                        <img alt="hambuger" src="https://img.icons8.com/metro/26/000000/menu.png"
                          onClick={openHamburger}
                         />
                         
