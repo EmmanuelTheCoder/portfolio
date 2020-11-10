@@ -12,6 +12,7 @@ import react from './pictures/react.png';
 import liquid from './pictures/liquid.png';
 import css from './pictures/css.png';
 import jquery from './pictures/jquery.png';
+import styled from './pictures/styled.png';
 
 
 
@@ -126,35 +127,56 @@ const App = () =>{
             </div>
             <div className="my-stack">
                 <h1>My stack</h1>
-                <p> 
-                    <img src={javascript} alt="javascript"/>
-                </p>
-                <p>JavaScript</p>
-                <p>
-                    <img src={react} alt="react" />
-                </p>
-                <p>React</p>
-                <p>
-                    <img src={html} alt="html"/>
-                </p>
-                <p>HTML5</p>
-                <p>
-                    <img src={css} alt="css"/>
-                </p>
-                <p>CSS3</p>
-                <p>
-                    <img src={bootstrap} alt="bootstrap"/>
-                </p>
-                <p>Bootstrap</p>
-                <p>
-                    <img src={jquery} alt="jquery"/>
-                </p>
-                <p> jQuery </p>
-                <p>
-                    <img src={liquid} alt="liquid"/>
-                </p>
-                <p>Liquid</p>
+                <div>
+                    <p> 
+                        <img src={javascript} alt="javascript"/>
+                    </p>
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <p>
+                        <img src={react} alt="react" />
+                    </p>
+                    <p>React</p>
+                </div>
 
+                <div>
+                    <p>
+                        <img src={html} alt="html"/>
+                    </p>
+                    <p>HTML5</p>
+                </div>
+                <div>
+                    <p>
+                        <img src={css} alt="css"/>
+                    </p>
+                    <p>CSS3</p>
+                </div>
+                <div>
+                    <p>
+                        <img src={bootstrap} alt="bootstrap"/>
+                    </p>
+                    <p>Bootstrap</p>
+                </div>
+                <div>
+                    <p>
+                        <img src={jquery} alt="jquery"/>
+                    </p>
+                    <p> jQuery </p>
+                </div>
+                <div>
+                    <p>
+                        <img src={liquid} alt="liquid"/>
+                    </p>
+                    <p>Liquid</p>
+                </div>
+
+                <div>
+                    <p>
+                        <img src={styled} alt="styled"/>
+                        <p>Styled-Components</p>
+                    </p>
+                </div>
             </div>
             <div className="projects">
                 <h1 id="projects">Some projects</h1>
@@ -245,7 +267,8 @@ const App = () =>{
                     </form> */}
 
                     <form name="contact" method="post" netlify>
-                        <input type="hidden" name="form-name" value="contact" />
+                        <input type="hidden" name="form-name" value="contact" 
+                        />
                         <p>
                             <label>Your Name: <input type="text" name="name"/></label>
                         </p>

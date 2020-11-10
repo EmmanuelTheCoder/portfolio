@@ -266,6 +266,9 @@ button{
   background: linear-gradient(to bottom, rgba(222,222,222, .3), rgba(121,212,212, .5));
 
 }
+.my-stack img{
+  width: 60px;
+}
 .my-stack h1{
   font-size: 2.2rem;
   padding-bottom: 2rem;
@@ -418,6 +421,18 @@ button{
     box-sizing: border-box;
   
   }
+  .my-stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+  }
+  .my-stack h1{
+    grid-column: 1/4;
+    
+  }
+  
+  
   
   .covering .firstp, .covering .secondp, .covering .thirdp, .covering .fourthp, .covering .fifthp, .covering .sixthp{
     margin-bottom: 1rem;
