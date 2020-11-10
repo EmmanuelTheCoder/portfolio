@@ -59,10 +59,10 @@ const App = () =>{
                     </div>
                 
                     <div className="unmove">
-                    <h1 id="intro">HI, I'm Emmanuel</h1>
-                    
-                    <ReactRotatingText className="frontend" items={["Firstend developer", "Meticulous, passionate and energetic", "Design driven", "Enthusiastic team player", "Deep creative thinker"]}
-                     typingInterval="200" emptyPause= "1500"/>
+                        <h1 id="intro">HI, I'm Emmanuel</h1>
+                        
+                        <ReactRotatingText className="frontend" items={["Firstend developer", "Meticulous, passionate and energetic", "Design driven", "Enthusiastic team player", "Deep creative thinker"]}
+                        typingInterval="200" emptyPause= "1500"/>
                     </div>
                     <div className="icon-container">
                         <a href="https://github.com/EmmanuelTheCoder" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="icon"/> </a>
