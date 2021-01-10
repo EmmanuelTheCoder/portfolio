@@ -15,7 +15,6 @@ import jquery from './pictures/jquery.png';
 import styled from './pictures/styled.png';
 
 
-
 let ReactRotatingText =  require('react-rotating-text');
 const App = () =>{
     
@@ -36,13 +35,14 @@ const App = () =>{
     }
 
 
-    
+    const date =   new Date();
+    const getYear = date.getFullYear();
     return(
         <div className="app">
             <div className="intro">
                     <Navbar className="main-navbar"/>
                     <div className="hamburger">
-                        <img alt="hambuger" src="https://img.icons8.com/metro/26/000000/menu.png"
+                        <img alt="menu" src="https://img.icons8.com/metro/26/000000/menu.png"
                          onClick={openHamburger}
                         />
                         
@@ -118,7 +118,7 @@ const App = () =>{
 
                 <div className="firstex">
                     <h2>Frontend developer</h2>
-                    <p>@TEC - Ilorin</p>
+                    <p>@TEC</p>
                 </div>
                 <div className="secondex">
                     <h2>Web manager/frontend developer</h2>
@@ -251,20 +251,6 @@ const App = () =>{
                 </div>
                 <div className="form">
                     <h1 id="contact">Contact me</h1>
-                    {/* <form
-                    name="contact"
-                    method="post"
-                    netlify
-                    >
-                    <label htmlFor="name">Your name</label>
-                    <input type="text" name="name"/>
-                    <label htmlFor="mail">E-mail</label>
-                    <input type="text" name="email" autoCapitalize="off" autoComplete="off"/>
-                    <label htmlFor="message">Message</label>
-                    <textarea name="message" id="" cols="30" rows="10">
-                    </textarea>
-                    <button type="submit">Send</button>
-                    </form> */}
 
                     <form name="contact" method="post" netlify>
                         <input type="hidden" name="form-name" value="contact" 
@@ -285,7 +271,7 @@ const App = () =>{
                 </div>
             </div>
                 <footer>
-                    <p>Emmanuel Aiyenigba, 2020.</p>
+                    <p>Emmanuel Aiyenigba, {getYear}.</p>
                     
                 </footer>
         </div>
