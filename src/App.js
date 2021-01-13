@@ -121,7 +121,7 @@ const App = () =>{
                     <p>@TEC</p>
                 </div>
                 <div className="secondex">
-                    <h2>Web manager/frontend developer</h2>
+                    <h2>Frontend developer</h2>
                     <p>@LoyaltyUpdates</p>
                 </div>
             </div>
@@ -183,69 +183,84 @@ const App = () =>{
                 <div className="covering">
                 
                 <div className="firstp">
+                        <h2>IP-Address-Finder</h2>
+                        <div className="project-link">
+                          <a href="https://github.com/EmmanuelTheCoder/ip-address-tracker" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                          < a target="_blank" rel="noopener noreferrer" href="https://github.com/EmmanuelTheCoder/movie-info"><img src={browser} alt="browser" className="project-browser" /></a>
+                        </div>
+                        <p className="description">Search and get the geographical location and internet service provider of any IP address of choice.</p>
+                            <hr />
+                            <i className="pink"></i>
+                        <p> React, REST API</p>
+                    </div>
+                <div className="firstp">
+                        <h2>cBay</h2>
+                        <div className="project-link">
+                          <a href="https://github.com/EmmanuelTheCoder/shop-for-clothes" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                          < a target="_blank" rel="noopener noreferrer" href="https://github.com/EmmanuelTheCoder/movie-info"><img src={browser} alt="browser" className="project-browser" /></a>
+                        </div>
+                        <p className="description">An online store for purchasing quality dresses</p>
+                            <hr/>
+                            <i className="pink"></i>
+                        <p> React</p>
+                    </div>
+
+                <div className="firstp">
+                        <h2>NetliGet</h2>
+                        <div className="project-link">
+                          <a href="https://github.com/EmmanuelTheCoder/Netliget" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                          < a target="_blank" rel="noopener noreferrer" href="https://findnumber.netlify.app/"><img src={browser} alt="browser" className="project-browser" /></a>
+                        </div>
+                        <p className="description">Find the network provider of any Nigerian phone number</p>
+                            <hr/>
+                            <i className="pink"></i>
+                        <p> React</p>
+                    </div>
+                
+                <div className="firstp">
                         <h2>Film Flix</h2>
                         <div className="project-link">
                           <a href="https://github.com/EmmanuelTheCoder/movie-info" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
                           < a target="_blank" rel="noopener noreferrer" href="https://github.com/EmmanuelTheCoder/movie-info"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Get information about any movie of your choice</p>
+                        <hr />
+                        <i className="pink"></i>
                         <p>React, API</p>
                     </div>
                     <div className="firstp">
-                        <h2>Quiz App</h2>
+                        <h2>eTest</h2>
                         <div className="project-link">
                           <a href="https://github.com/EmmanuelTheCoder/BibleQuiz_App" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
                           <a href="https://biblequiz.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Test your skills on certain subjects while having fun.</p>
-                        <p>HTML, CSS, JS, jQuery </p>
+                        <hr />
+                        <i className="pink"></i>
+                        <p>HTML, CSS, jQuery </p>
                     </div>
                     <div className="secondp">
-                        <h2>TodoList App</h2>
+                        <h2>dayPlanner</h2>
                         <div className="project-link">
                             <a href="https://github.com/EmmanuelTheCoder/TodoList_App" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
                             <a href="https://todoplan.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Plan and organize your daily activities with this TodoList web app. 
                         </p>
+                        <hr />
+                        <i className="pink"></i>
                         <p>HTML, CSS, JS</p>
                     </div>
-                    <div className="thirdp">
-                        <h2>Business Card</h2>
-                        <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/Business-card"><img src={github} alt="gitub" className="project-github" /> </a>
-                            < a target="_blank" rel="noopener noreferrer"href="https://github.com/EmmanuelTheCoder/Business-card"><img src={browser} alt="browser" className="project-browser" /> </a>
-                        </div>
-                        <p className="description">Get your business live on the web with this
-                         business card.</p>
-                        <p>React</p>
-                    </div>
-                    <div className="fourthp">
-                        <h2>Covid-19 tracker</h2>
-                        <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/Covid19-live-stat" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /> </a>
-                            <a href="https://covid19me.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
-                        </div>
-                        <p className="description">Be updated about the Covid-19 pandemic</p>
-                        <p>HTML,CSS, JS, API</p>
-                    </div>
                     <div className="fifthp">
-                        <h2>Weather App</h2>
+                        <h2>getWeather</h2>
                         <div className="project-link">
                             <a href="https://github.com/EmmanuelTheCoder/Weather-app-withReact" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
                             <a href="https://weatherzone.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Check for weather info in any and every city you wish</p>
-                        <p>HTML, CSS, JS,API</p>
-                    </div>
-                    <div className="sixthp">
-                        <h2>GPA Calculator</h2>
-                        <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/GPA-calculator" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
-                            <a href="https://calculategp.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
-                        </div>
-                        <p className="description">Helps nigerian university students calculate their GPA</p>
-                        <p>React</p>
+                        <hr />
+                        <i className="pink"></i>
+                        <p>HTML, CSS, JS</p>
                     </div>
 
                 </div>

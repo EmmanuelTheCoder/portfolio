@@ -42,6 +42,18 @@ a{
   margin-top: .5rem;
   
 }
+.pink{
+  display: block;
+    content: "";
+    background-color: #f93794;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: .17rem;
+    left: 3rem;
+  
+}
 
 .project-github{
   width: 40px;
@@ -380,6 +392,7 @@ button{
   background: 
   linear-gradient(to bottom, rgba(222,222,222, .3), rgba(121,212,212, .4));
   color: rgba(112, 22, 223, .5);
+  position: relative;
     
 }
 .covering .firstp {
@@ -403,6 +416,7 @@ button{
   font-family: sans-serif;
   align-self: center;
   font-size: .9rem;
+  
   
 }
 
