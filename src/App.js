@@ -61,7 +61,7 @@ const App = () =>{
                     <div className="unmove">
                         <h1 id="intro">HI, I'm Emmanuel</h1>
                         
-                        <ReactRotatingText className="frontend" items={["Firstend developer", "Meticulous, passionate and energetic", "Design driven", "Enthusiastic team player", "Deep creative thinker"]}
+                        <ReactRotatingText className="frontend" items={["Frontend developer", "Meticulous and energetic", "Design driven", "team player", "creative thinker"]}
                         typingInterval="200" emptyPause= "1500"/>
                     </div>
                     <div className="icon-container">
@@ -234,7 +234,7 @@ const App = () =>{
                           <a href="https://github.com/EmmanuelTheCoder/BibleQuiz_App" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
                           <a href="https://biblequiz.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
-                        <p className="description">Test your skills on certain subjects while having fun.</p>
+                        <p className="description">Test how much you know the Bible.</p>
                         <hr />
                         <i className="pink"></i>
                         <p>HTML, CSS, jQuery </p>
