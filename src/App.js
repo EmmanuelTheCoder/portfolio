@@ -39,6 +39,7 @@ const App = () =>{
     const getYear = date.getFullYear();
     return(
         <div className="app">
+            <header>
             <div className="intro">
                     <Navbar className="main-navbar"/>
                     <div className="hamburger">
@@ -74,6 +75,7 @@ const App = () =>{
                     
                     
             </div>
+           
             <div className="modal-container">
                 <div className="modal">
                     <div className="close" onClick={close}>+</div>
@@ -113,16 +115,44 @@ const App = () =>{
                 
                 <img src={emmanuel} alt="my pic"/>
             </div>
+            {/* stop header */}
+            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon class="svg--sm" fill="white" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
+                <polygon class="svg--lg" fill="white" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
+            </svg> */}
+            </header>
             <div className="experience">
                 <h1 id="experience">Experience</h1>
 
                 <div className="firstex">
                     <h2>Frontend developer</h2>
                     <p>@TEC</p>
+                    <p className="job-desc">Worked across teams to build the user interface of internal
+                        products for the company with JavaScript, converting UI designs into pixel perfect frontend, optimized the
+                        rendering of server-side data on the client-side using React hooks and state management with Redux.
+                    </p>
+                </div>
+                <div className="div-job-stack">
+                        <p className="job-stack"></p><p>JavaScript</p>
+                        <p className="job-stack"></p><p>React</p>
+                        <p className="job-stack"></p><p>Redux</p>
+                        <p className="job-stack"></p><p>REST APIs</p>
+                        
+
                 </div>
                 <div className="secondex">
                     <h2>Frontend developer</h2>
                     <p>@LoyaltyUpdates</p>
+                    <p className="job-desc">
+                        Helped build interactive visual elements for web applications; worked with the backend team to implement server-side logic
+                        on the client-side through API integration; optimized web applications for maximum speed and scalability.
+                    </p>
+                </div>
+                <div className="div-job-stack">
+                        <p className="job-stack"></p><p>JavaScript</p>
+                        <p className="job-stack"></p><p>React</p>
+                        <p className="job-stack"></p><p>Context</p>
+                        <p className="job-stack"></p><p>REST APIs</p>
                 </div>
             </div>
             <div className="my-stack">
@@ -138,6 +168,12 @@ const App = () =>{
                         <img src={react} alt="react" />
                     </p>
                     <p>React</p>
+                </div>
+                <div>
+                    <p>
+                    <img src="https://img.icons8.com/color/96/000000/redux.png" alt="redux"/>
+                    </p>
+                    <p>Redux</p>
                 </div>
 
                 <div>
@@ -186,7 +222,6 @@ const App = () =>{
                         <h2>IP-Address-Finder</h2>
                         <div className="project-link">
                           <a href="https://github.com/EmmanuelTheCoder/ip-address-tracker" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
-                          < a target="_blank" rel="noopener noreferrer" href="https://github.com/EmmanuelTheCoder/movie-info"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Search and get the geographical location and internet service provider of any IP address of choice.</p>
                             <hr />
@@ -197,7 +232,6 @@ const App = () =>{
                         <h2>cBay</h2>
                         <div className="project-link">
                           <a href="https://github.com/EmmanuelTheCoder/shop-for-clothes" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
-                          < a target="_blank" rel="noopener noreferrer" href="https://github.com/EmmanuelTheCoder/movie-info"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">An online store for purchasing quality dresses</p>
                             <hr/>
@@ -221,7 +255,6 @@ const App = () =>{
                         <h2>Film Flix</h2>
                         <div className="project-link">
                           <a href="https://github.com/EmmanuelTheCoder/movie-info" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
-                          < a target="_blank" rel="noopener noreferrer" href="https://github.com/EmmanuelTheCoder/movie-info"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
                         <p className="description">Get information about any movie of your choice</p>
                         <hr />
@@ -257,7 +290,7 @@ const App = () =>{
                             <a href="https://github.com/EmmanuelTheCoder/Weather-app-withReact" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
                             <a href="https://weatherzone.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
-                        <p className="description">Check for weather info in any and every city you wish</p>
+                        <p className="description">Search and get weather information for any city</p>
                         <hr />
                         <i className="pink"></i>
                         <p>HTML, CSS, JS</p>
@@ -287,7 +320,7 @@ const App = () =>{
             </div>
                 <footer>
                     <p>Emmanuel Aiyenigba, {getYear}.</p>
-                    
+                    <p>e-mail: loyaltysamuel001@gmail.com</p>
                 </footer>
         </div>
     );

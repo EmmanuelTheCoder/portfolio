@@ -51,7 +51,7 @@ a{
     border-radius: 50%;
     position: absolute;
     bottom: .17rem;
-    left: 3rem;
+    left: 2rem;
   
 }
 
@@ -258,6 +258,7 @@ button{
   background: linear-gradient(to bottom, rgba(222,222,222, .2), rgba(121,212,212, .3));
   text-align: center;
   margin-top: 2.5rem;
+
 }
 .experience h1{
   font-size: 2.2rem;
@@ -265,6 +266,8 @@ button{
 }
 .firstex{
   padding-top: 2rem;
+  position: relative;
+  margin-bottom: -2rem;
 }
 .firstex p, .secondex p{
   font-style: italic;
@@ -272,6 +275,41 @@ button{
   padding-bottom: 3rem;
   color: rgba(47, 112, 112, 0.9);
 }
+
+.secondex p:last-child{
+  margin-bottom: -2rem;
+}
+.job-desc{
+  padding: .5rem 2rem;
+  margin-top: -2.5rem;
+  text-align: justify;
+}
+.job-stack{
+  font-size: 1rem;
+  background: rgb(190, 12, 42);
+  color:rgb(190, 12, 42);
+  width:10px;
+  height: 10px;
+  border-radius: 50px;
+  margin: auto;
+
+}
+.div-job-stack{
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.div-job-stack p{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  
+}
+.job-stack i{
+  padding-left: 1rem;
+}
+
 .my-stack{
   margin-top: 3rem;
   text-align: center;
@@ -295,6 +333,7 @@ button{
   
   
 }
+
 .react-rotating-text-cursor{
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinte;
 }
@@ -382,8 +421,8 @@ button{
 .covering .fourthp, .covering .fifthp, .covering .sixthp{
   margin-bottom: 1rem;
   box-shadow: rgb(78, 78, 170) 5px 12px 15px;
-  height: 50vh;
-  width: 50vw;
+  height: 40vh;
+  width: 40vw;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -609,3 +648,39 @@ footer >p{
   color: rgb(3, 3, 153);
   display: flex;
 }
+
+
+/* header {
+  position: relative;
+  height: 300px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+}
+
+h1 {
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
+
+@media (max-width: 699px) {
+  .svg--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .svg--sm {
+    display: none;
+  }
+} */
