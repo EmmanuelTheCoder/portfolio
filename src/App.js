@@ -133,8 +133,8 @@ const App = () =>{
                     </p>
                 </div>
                 <div className="div-job-stack">
-                        <p className="job-stack"></p><p>JavaScript</p>
-                        <p className="job-stack"></p><p>React</p>
+                        <p className="job-stack">o</p><p>JavaScript</p>
+                        <p className="job-stack">o</p><p>React</p>
                         <p className="job-stack"></p><p>Redux</p>
                         <p className="job-stack"></p><p>REST APIs</p>
                         
@@ -225,7 +225,7 @@ const App = () =>{
                         </div>
                         <p className="description">Search and get the geographical location and internet service provider of any IP address of choice.</p>
                             <hr />
-                            <i className="pink"></i>
+                         
                         <p> React, REST API</p>
                     </div>
                 <div className="firstp">
@@ -235,7 +235,7 @@ const App = () =>{
                         </div>
                         <p className="description">An online store for purchasing quality dresses</p>
                             <hr/>
-                            <i className="pink"></i>
+                         
                         <p> React</p>
                     </div>
 
@@ -247,7 +247,7 @@ const App = () =>{
                         </div>
                         <p className="description">Find the network provider of any Nigerian phone number</p>
                             <hr/>
-                            <i className="pink"></i>
+                           
                         <p> React</p>
                     </div>
                 
@@ -258,7 +258,7 @@ const App = () =>{
                         </div>
                         <p className="description">Get information about any movie of your choice</p>
                         <hr />
-                        <i className="pink"></i>
+                        
                         <p>React, API</p>
                     </div>
                     <div className="firstp">
@@ -269,7 +269,7 @@ const App = () =>{
                         </div>
                         <p className="description">Test how much you know the Bible.</p>
                         <hr />
-                        <i className="pink"></i>
+                       
                         <p>HTML, CSS, jQuery </p>
                     </div>
                     <div className="secondp">
@@ -281,7 +281,7 @@ const App = () =>{
                         <p className="description">Plan and organize your daily activities with this TodoList web app. 
                         </p>
                         <hr />
-                        <i className="pink"></i>
+                        
                         <p>HTML, CSS, JS</p>
                     </div>
                     <div className="fifthp">
@@ -292,7 +292,7 @@ const App = () =>{
                         </div>
                         <p className="description">Search and get weather information for any city</p>
                         <hr />
-                        <i className="pink"></i>
+                       
                         <p>HTML, CSS, JS</p>
                     </div>
 

@@ -285,13 +285,13 @@ button{
   text-align: justify;
 }
 .job-stack{
-  font-size: 1rem;
-  background: rgb(190, 12, 42);
+  font-size: 2rem;
   color:rgb(190, 12, 42);
   width:10px;
   height: 10px;
   border-radius: 50px;
   margin: auto;
+  
 
 }
 .div-job-stack{
@@ -299,6 +299,7 @@ button{
   flex-direction: row;
   text-align: center;
   margin-bottom: 3rem;
+  padding: 0 3rem;
 }
 .div-job-stack p{
   margin-left: 1rem;
