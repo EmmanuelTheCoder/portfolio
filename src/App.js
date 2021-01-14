@@ -116,10 +116,7 @@ const App = () =>{
                 <img src={emmanuel} alt="my pic"/>
             </div>
             {/* stop header */}
-            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <polygon class="svg--sm" fill="white" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
-                <polygon class="svg--lg" fill="white" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
-            </svg> */}
+
             </header>
             <div className="experience">
                 <h1 id="experience">Experience</h1>
@@ -133,10 +130,11 @@ const App = () =>{
                     </p>
                 </div>
                 <div className="div-job-stack">
-                        <p className="job-stack">o</p><p>JavaScript</p>
-                        <p className="job-stack">o</p><p>React</p>
-                        <p className="job-stack"></p><p>Redux</p>
-                        <p className="job-stack"></p><p>REST APIs</p>
+                <img src="https://img.icons8.com/color/30/000000/arrow--v1.png" alt="arrow"/>
+                        <p>JavaScript</p>
+                        <p>React</p>
+                        <p>Redux</p>
+                        <p>REST APIs</p>
                         
 
                 </div>
@@ -149,10 +147,11 @@ const App = () =>{
                     </p>
                 </div>
                 <div className="div-job-stack">
-                        <p className="job-stack"></p><p>JavaScript</p>
-                        <p className="job-stack"></p><p>React</p>
-                        <p className="job-stack"></p><p>Context</p>
-                        <p className="job-stack"></p><p>REST APIs</p>
+                <img src="https://img.icons8.com/color/30/000000/arrow--v1.png" alt="arrow"/>
+                        <p>JavaScript</p>
+                        <p>React</p>
+                        <p>Context</p>
+                        <p>REST APIs</p>
                 </div>
             </div>
             <div className="my-stack">
