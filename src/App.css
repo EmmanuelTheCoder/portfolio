@@ -305,7 +305,7 @@ button{
   margin-left: 1rem;
   font-size: 1.2rem;
   font-weight: 500;
-  
+  padding-top: .5rem
 }
 .job-stack i{
   padding-left: 1rem;
@@ -456,15 +456,11 @@ button{
   font-family: sans-serif;
   align-self: center;
   font-size: .9rem;
-  
-  
+
 }
-@media(min-width: 480px){
-  .covering{
-    display: flex;
-    flex-wrap: wrap;
-    
-  }
+.covering{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 890px){

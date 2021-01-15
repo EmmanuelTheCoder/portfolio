@@ -68,7 +68,7 @@ const App = () =>{
                     <div className="icon-container">
                         <a href="https://github.com/EmmanuelTheCoder" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="icon"/> </a>
                         <a href="https://twitter.com/EmmanuelCoder" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" className="icon" /> </a>
-                        <a href="mailto:loyaltysamuel001@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope icon"/></a>
+                        <a href="mailto:loyaltysamuel001@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/ios-filled/22/000000/secured-letter--v2.png" alt="mail"/></a>
                     </div>
                     
                    
