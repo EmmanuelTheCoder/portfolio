@@ -232,10 +232,10 @@ const App = () =>{
                         <div className="project-link">
                           <a href="https://github.com/EmmanuelTheCoder/shop-for-clothes" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
                         </div>
-                        <p className="description">An online store for purchasing quality dresses</p>
+                        <p className="description">An online store for purchasing quality clothes</p>
                             <hr/>
                          
-                        <p> React</p>
+                        <p> React, Context, Styled-components</p>
                     </div>
 
                 <div className="firstp">
@@ -260,17 +260,20 @@ const App = () =>{
                         
                         <p>React, API</p>
                     </div>
+                    //testing out
+
                     <div className="firstp">
-                        <h2>eTest</h2>
+                        <h2>CoolPexels</h2>
                         <div className="project-link">
-                          <a href="https://github.com/EmmanuelTheCoder/BibleQuiz_App" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
-                          <a href="https://biblequiz.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
+                          <a href="https://github.com/emmanuelTheCoder/cool-pexels" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                          <a href="https://coolpexels.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
-                        <p className="description">Test how much you know the Bible.</p>
+                        <p className="description">Get cool photos and videos to download. Built on pexels.com's API</p>
                         <hr />
                        
-                        <p>HTML, CSS, jQuery </p>
+                        <p>TypeScript, Javascript, React, RESTAPI </p>
                     </div>
+                      //end of testing out
                     <div className="secondp">
                         <h2>dayPlanner</h2>
                         <div className="project-link">
