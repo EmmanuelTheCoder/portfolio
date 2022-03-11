@@ -54,7 +54,7 @@ const App = () =>{
                         <a href="#intro" onClick={closeHamburger}>About</a>
                         <a href="#contact" onClick={closeHamburger}>Contact</a>
                         <a href="#projects" onClick={closeHamburger}>Projects</a>
-                        <a href="https://www.dropbox.com/s/b92z0wv7yorgkd5/resume.pdf?dl=0" onClick={closeHamburger}>Resume</a>
+                        <a href="https://www.dropbox.com/scl/fi/nhg2grf1p7y7nl99nq98s/Emmanuel-Aiyenigba-s-resume.docx?dl=0&rlkey=27qszpeq5jnwe9j38tn3i4kgi" onClick={closeHamburger}>Resume</a>
                         <p></p>
                     </div>
                     </div>
