@@ -62,7 +62,7 @@ const App = () =>{
                     <div className="unmove">
                         <h1 id="intro">HI, I'm Emmanuel</h1>
                         
-                        <ReactRotatingText className="frontend" items={["Frontend developer", "Meticulous and energetic", "Design driven", "team player", "creative thinker"]}
+                        <ReactRotatingText className="frontend" items={["Frontend engineer", "Meticulous and energetic", "Design driven", "team player", "creative thinker"]}
                         typingInterval="200" emptyPause= "1500"/>
                     </div>
                     <div className="icon-container">
@@ -107,7 +107,7 @@ const App = () =>{
             </div>
             <div className="self-info">
                 <p className="info">
-                    I am a meticulous frontend developer 
+                    I am a meticulous frontend engineer 
                     with 3+ years experience building frontend products.
                     An enthusiatic team player and deep creative thinker.
                     <button className="hire" onClick={showDisplay}>Hire me</button>
@@ -122,7 +122,7 @@ const App = () =>{
                 <h1 id="experience">Experience</h1>
 
                 <div className="firstex">
-                    <h2>Frontend developer</h2>
+                    <h2>Frontend engineer</h2>
                     <p>@TEC</p>
                     <p className="job-desc">Worked across teams to build the user interface of internal
                         products for the company with JavaScript, converting UI designs into pixel perfect frontend, optimized the
