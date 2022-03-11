@@ -108,7 +108,7 @@ const App = () =>{
             <div className="self-info">
                 <p className="info">
                     I am a meticulous frontend developer 
-                    with 2+ years experience building frontend products.
+                    with 3+ years experience building frontend products.
                     An enthusiatic team player and deep creative thinker.
                     <button className="hire" onClick={showDisplay}>Hire me</button>
                 </p>
