@@ -260,7 +260,7 @@ const App = () =>{
                         
                         <p>React, API</p>
                     </div>
-                    //testing out
+                    
 
                     <div className="firstp">
                         <h2>CoolPexels</h2>
@@ -273,7 +273,7 @@ const App = () =>{
                        
                         <p>TypeScript, Javascript, React, RESTAPI </p>
                     </div>
-                      //end of testing out
+                      
                     <div className="secondp">
                         <h2>dayPlanner</h2>
                         <div className="project-link">
