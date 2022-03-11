@@ -275,16 +275,16 @@ const App = () =>{
                     </div>
                       
                     <div className="secondp">
-                        <h2>dayPlanner</h2>
+                        <h2>Live Soccer</h2>
                         <div className="project-link">
-                            <a href="https://github.com/EmmanuelTheCoder/TodoList_App" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
-                            <a href="https://todoplan.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
+                            <a href="https://github.com/emmanuelTheCoder/live-soccer" target="_blank" rel="noopener noreferrer"><img src={github} alt="gitub" className="project-github" /></a>
+                            <a href="https://soccerupdate.netlify.app" target="_blank" rel="noopener noreferrer"><img src={browser} alt="browser" className="project-browser" /></a>
                         </div>
-                        <p className="description">Plan and organize your daily activities with this TodoList web app. 
+                        <p className="description">Get football updates like match fixtures, live scores, and top scorers from the Scottish Premiership and French league 2 leagues. 
                         </p>
                         <hr />
                         
-                        <p>HTML, CSS, JS</p>
+                        <p>React, Redux</p>
                     </div>
                     <div className="fifthp">
                         <h2>getWeather</h2>
